@@ -15,16 +15,34 @@
     <title>Javascript Event</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-8 offset-sm-3">
-          <h1 class="text-center m-5">Javascript Event</h1>
+        <div class="col-sm-8">
+          <h1 class="text-center mt-5">AJAX Request</h1>
+          <h3 class="text-center mb-5">
+            XMLHttpRequest, fetch API and axios systems
+          </h3>
+          <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Username</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+        <div class="col-sm-4">
+          <h1 class="text-center m-5">Javascript Enter Event</h1>
           <input type="text" class="form-control" name="item" id="item" />
           <ul class="list-group my-5" id="itemList"></ul>
         </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
